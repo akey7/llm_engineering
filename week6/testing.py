@@ -1,5 +1,6 @@
 import math
 import matplotlib.pyplot as plt
+import time
 
 GREEN = "\033[92m"
 YELLOW = "\033[93m"
@@ -67,6 +68,7 @@ class Tester:
     def run(self):
         self.error = 0
         for i in range(self.size):
+            time.sleep(3)
             self.run_datapoint(i)
         self.report()
 
