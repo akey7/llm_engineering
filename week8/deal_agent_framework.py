@@ -36,8 +36,8 @@ def init_logging():
 
 class DealAgentFramework:
 
-    DB = "products_vectorstore"
-    MEMORY_FILENAME = "memory.json"
+    DB = "/Volumes/BlueData/autonomous_agent_system/vectorstore"
+    MEMORY_FILENAME = "/Volumes/BlueData/autonomous_agent_system/memory.json"
 
     def __init__(self):
         init_logging()
