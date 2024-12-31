@@ -183,5 +183,5 @@ products_vectorstore/
 week4/optimized
 week4/simple
 
-# Ignore jsonl files
+# Ignore jsonl
 *.jsonl
